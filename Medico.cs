@@ -47,19 +47,7 @@ namespace ConsoleApplication1
                 this.oficina = 0;
             }
         }
-        public Medico() {
-            Console.Write("\t\t\tDAROS PERSONALES\n\n");
-            Pesona p = new Pesona();
-            p.cedulaIdentidad = "1724977960";
-            System.Console.WriteLine("Cedula de identidad : " + p.cedulaIdentidad);
-            p.nombre = "Omar";
-            System.Console.WriteLine("Nombre : " + p.nombre);
-            p.apellido = "Vallejo";
-            System.Console.WriteLine("Apellido : " + p.apellido);
-            especialidad = "Oftalmologia";
-            System.Console.WriteLine("Especialidad : " + especialidad);
-            
-        }
+        
 
     }
 }
