@@ -52,41 +52,29 @@ namespace ConsoleApplication1
         {
             Console.Write("\t\t\tDAROS PERSONALES\n\n");
             Pesona pa = new Pesona();
-            pa.cedulaIdentidad = "1726795709";
-            System.Console.WriteLine("Cedula de identidad : " + pa.cedulaIdentidad);
-            pa.nombre = "Javier";
-            System.Console.WriteLine("Nombre : " + pa.nombre);
-            pa.apellido = "Jaramillo";
-            System.Console.WriteLine("Apellido: " + pa.apellido);
-            diagnostico = "Gripe ";
-            System.Console.WriteLine("Diagnostico : " + diagnostico);
+            pa.cedulaIdentidad = " ";
+            pa.nombre = " ";
+            pa.apellido = " ";
+            diagnostico = " ";
             HistoriaClinica hClinica = new HistoriaClinica();
             Console.WriteLine("========================================================================\n" +
                 "\t\t\tHISTORIA CLINICA\n\n");
-            hClinica.nombre = "Javier";
-            System.Console.WriteLine("Nombre paciente : " + hClinica.nombre);
-            hClinica.apellido = "Jaramillo";
-            System.Console.WriteLine("Nombre paciente : " + hClinica.apellido);
-            hClinica.edad = 25;
-            System.Console.WriteLine("Edad paciente : " + hClinica.edad);
-            hClinica.numeroSeguro = "1222324";
-            System.Console.WriteLine("Numero de seguro : " + hClinica.numeroSeguro);
-            hClinica.nombreMedico = "Omar Vallejo";
-            System.Console.WriteLine("Nombre del medico : " + hClinica.nombreMedico);
-            hClinica.estado = "Enfermo";
-            System.Console.WriteLine("Estado de salud : " + hClinica.estado);
-            hClinica.alergia = "Penicilina";
-            System.Console.WriteLine("Alergias : " + hClinica.alergia);
+            hClinica.nombre = " ";           
+            hClinica.apellido = " ";
+            hClinica.edad = 0;
+            hClinica.numeroSeguro = " ";
+            hClinica.nombreMedico = " ";
+            hClinica.estado = " ";
+            hClinica.alergia = " ";
             Console.WriteLine("========================================================================\n" +
                 "\t\t\tRECETA\n\n");
             Receta receta = new Receta();
             receta.fecha = new Fecha();
-            receta.fecha.dia = 11;
-            receta.fecha.mes = "Noviembre";
-            receta.fecha.anio = 2016;
-            System.Console.WriteLine("Fecha : " + receta.fecha.dia + " " + receta.fecha.mes + " " + receta.fecha.anio);
-            receta.medicamento = "Lagrimas artificiales";
-            System.Console.WriteLine("Medicamento : " + receta.medicamento);
+            receta.fecha.dia = 0;
+            receta.fecha.mes = " ";
+            receta.fecha.anio = 0;
+            receta.medicamento = " ";
+
             
             
 
