@@ -89,6 +89,18 @@ namespace ConsoleApplication1
             paciente2.HistoriaClinica.estado = "Enfermo";
             paciente2.HistoriaClinica.alergia = "Penicilina";
             paciente2.HistoriaClinica.tipoSeguro = "Privado";
+            ///==========================================================
+            
+            paciente2.Receta = new Receta();
+            paciente2.Receta.fecha = new Fecha();
+            paciente2.Receta.fecha.dia = 18;
+            paciente2.Receta.fecha.mes = "septiembre";
+            paciente2.Receta.fecha.anio = 2016;
+            paciente2.Receta.medicamento = "Metocarbamol";
+            paciente2.Receta.indicacion = "Administrar una dosis tres veces al dia";
+            paciente2.Seguro = new Seguro();
+            paciente2.Seguro.numeroSeguro = "1214334";
+            ///=============================================================
 
             misFunciones.CargarPacienteInicial(paciente2);
 
@@ -105,6 +117,18 @@ namespace ConsoleApplication1
             paciente3.HistoriaClinica.estado = "Critico";
             paciente3.HistoriaClinica.alergia = "Ninguna";
             paciente3.HistoriaClinica.tipoSeguro = "Privado";
+             ///==========================================================
+
+            paciente3.Receta = new Receta();
+            paciente3.Receta.fecha = new Fecha();
+            paciente3.Receta.fecha.dia = 24;
+            paciente3.Receta.fecha.mes = "agosto";
+            paciente3.Receta.fecha.anio = 2016;
+            paciente3.Receta.medicamento = "Doxil";
+            paciente3.Receta.indicacion = "Administrar una dosis dos veces al dia";
+            paciente3.Seguro = new Seguro();
+            paciente3.Seguro.numeroSeguro = "201582";
+            ///=============================================================
             misFunciones.CargarPacienteInicial(paciente3);
 
             Paciente paciente4 = new Paciente();
@@ -120,6 +144,18 @@ namespace ConsoleApplication1
             paciente4.HistoriaClinica.estado = "Enfermo";
             paciente4.HistoriaClinica.alergia = "amoxisilina";
             paciente4.HistoriaClinica.tipoSeguro = "Privado";
+             ///==========================================================
+
+            paciente4.Receta = new Receta();
+            paciente4.Receta.fecha = new Fecha();
+            paciente4.Receta.fecha.dia = 16;
+            paciente4.Receta.fecha.mes = "octubre";
+            paciente4.Receta.fecha.anio = 2016;
+            paciente4.Receta.medicamento = "Ditropan";
+            paciente4.Receta.indicacion = "Administrar una dosis tres veces al dia";
+            paciente4.Seguro = new Seguro();
+            paciente4.Seguro.numeroSeguro = "201328";
+            ///=============================================================
             misFunciones.CargarPacienteInicial(paciente4);
 
             Paciente paciente5 = new Paciente();
@@ -135,6 +171,18 @@ namespace ConsoleApplication1
             paciente5.HistoriaClinica.estado = "Critico";
             paciente5.HistoriaClinica.alergia = "Ninguna";
             paciente5.HistoriaClinica.tipoSeguro = "Privado";
+            ///==========================================================
+
+            paciente5.Receta = new Receta();
+            paciente5.Receta.fecha = new Fecha();
+            paciente5.Receta.fecha.dia = 16;
+            paciente5.Receta.fecha.mes = "octubre";
+            paciente5.Receta.fecha.anio = 2016;
+            paciente5.Receta.medicamento = "Penicilina";
+            paciente5.Receta.indicacion = "Administrar una dosis una vez al dia";
+            paciente5.Seguro = new Seguro();
+            paciente5.Seguro.numeroSeguro = "199509";
+            ///=============================================================
             misFunciones.CargarPacienteInicial(paciente5);
 
             Paciente paciente6 = new Paciente();
@@ -150,6 +198,18 @@ namespace ConsoleApplication1
             paciente6.HistoriaClinica.estado = "Enfermo";
             paciente6.HistoriaClinica.alergia = "Ninguna";
             paciente6.HistoriaClinica.tipoSeguro = "Privado";
+             ///==========================================================
+
+            paciente6.Receta = new Receta();
+            paciente6.Receta.fecha = new Fecha();
+            paciente6.Receta.fecha.dia = 22;
+            paciente6.Receta.fecha.mes = "septiembre";
+            paciente6.Receta.fecha.anio = 2016;
+            paciente6.Receta.medicamento = "Amoxicilina";
+            paciente6.Receta.indicacion = "Administrar una dosis tres veces al dia";
+            paciente6.Seguro = new Seguro();
+            paciente6.Seguro.numeroSeguro = "199703";
+            ///=============================================================
             misFunciones.CargarPacienteInicial(paciente6);
 
 
