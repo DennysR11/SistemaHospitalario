@@ -62,7 +62,19 @@ namespace ConsoleApplication1
             paciente.HistoriaClinica.estado = "Enfermo";
             paciente.HistoriaClinica.alergia = "Penicilina";
             paciente.HistoriaClinica.tipoSeguro = "Publico";
+            ///==========================================================
+            paciente.Receta = new Receta();
+            paciente.Receta.fecha = new Fecha();
+            paciente.Receta.fecha.dia = 12;
+            paciente.Receta.fecha.mes = "noviembre";
+            paciente.Receta.fecha.anio = 2016;
+            paciente.Receta.medicamento= "Peicilina";
+            paciente.Receta.indicacion = "Administrar una dosis dos veces al dia";
+            paciente.Seguro = new Seguro();
+            paciente.Seguro.numeroSeguro = "100312";
+            ///=============================================================
             misFunciones.CargarPacienteInicial(paciente);
+
 
             Paciente paciente2 = new Paciente();
             paciente2.nombre = "Karla";
@@ -77,6 +89,7 @@ namespace ConsoleApplication1
             paciente2.HistoriaClinica.estado = "Enfermo";
             paciente2.HistoriaClinica.alergia = "Penicilina";
             paciente2.HistoriaClinica.tipoSeguro = "Privado";
+
             misFunciones.CargarPacienteInicial(paciente2);
 
             Paciente paciente3 = new Paciente();
